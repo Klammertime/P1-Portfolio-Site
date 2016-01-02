@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - My Portfolio</title>
+      <!--Reviewer Question: Does this Shim help me at all? Is it needed if
+      I'm using normalize and http-equiv like above? I found the following code from Lynda.com: HTML5: Structure, Syntax, and Semantics.-->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![end if]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet'>
+    <link href="css/main.min.css" rel="stylesheet">
+    <script src="js/modernizr-custom.js"></script>
+    <script>
+    Modernizr.load([
+        {
+          load:
+          "js/picturefill.min.js"
+        }
+    ]);
+    </script>
+  </head>
+  <body>
+    <div class="grid">
+      <header class="line main-header">
+        <div class="inner-header row container">
+            <section class="logo green">
+              <p>Ǡ</p>
+            </section>
+            <section class="title right-text uppercase dark-grey">
+              <h1>Audrey Klammer</h1>
+              <p class="small-title">Front-End Developer</p>
+            </section>
+        </div>
+        </header>
+        <section class="hero row">
+            <img
+              src="img/desk_3600.jpg"
+              alt="Desk"
+              srcset="img/desk_960.jpg 960w,
+                      img/desk_1440.jpg 1440w,
+                      img/desk_1800.jpg 1800w,
+                      img/desk_3600.jpg 3600w"
+              sizes="(min-width: 1200px) 1200px, 100vw"
+              />
+        </section>
+        <!-- Reviewer Question: Am I using the article, section, header and main tags right here? -->
+        <main role="main">
+          <section>
+            <header class="row">
+                <h2 class="green ten-left">Featured Work</h2>
+            </header>
+            <div class="portfolio center-text row">
+              <article class="portfolio-item" role="article">
+                <img
+                  src="img/portfolio1_3600.jpg"
+                  alt="Portfolio 1"
+                  srcset="img/portfolio1_960.jpg 960w,
+                          img/portfolio1_1440.jpg 1440w,
+                          img/portfolio1_1800.jpg 1800w,
+                          img/portfolio1_3600.jpg 3600w"
+                  sizes="(min-width: 800px) 800px,
+                        (min-width: 1200px) calc(33vw - 25px),
+                        100vw"
+                  />
+                <h3 class="dark-grey uppercase">Item 1</h3>
+                <p>
+                  <a href="" class="pink">Learn More</a>
+                </p>
+              </article>
+              <article class="portfolio-item" role="article">
+                <img
+                  src="img/portfolio2_3600.jpg"
+                  alt="Portfolio 2"
+                  srcset="img/portfolio2_960.jpg 960w,
+                          img/portfolio2_1440.jpg 1440w,
+                          img/portfolio2_1800.jpg 1800w,
+                          img/portfolio2_3600.jpg 3600w"
+                  sizes="(min-width: 800px) 800px,
+                        (min-width: 1200px) calc(33vw - 25px),
+                        100vw"
+                />
+                <h3 class="dark-grey uppercase">Item 2</h3>
+                <p>
+                  <a href="" class="pink">Learn More</a>
+                </p>
+              </article>
+              <article class="portfolio-item" role="article">
+                <img
+                  src="img/portfolio3_3600.jpg"
+                  alt="Portfolio 3"
+                  srcset="img/portfolio3_960.jpg 960w,
+                          img/portfolio3_1440.jpg 1440w,
+                          img/portfolio3_1800.jpg 1800w,
+                          img/portfolio3_3600.jpg 3600w"
+                  sizes="(min-width: 800px) 800px,
+                        (min-width: 1200px) calc(33vw - 25px),
+                        100vw"
+                />
+                <h3 class="dark-grey uppercase">Item 3</h3>
+                <p>
+                  <a href="" class="pink">Learn More</a>
+                </p>
+              </article>
+            </div>
+          </section>
+        </main>
+    </div>
+  </body>
+</html>
