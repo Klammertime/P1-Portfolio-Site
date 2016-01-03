@@ -8,7 +8,6 @@ TABLE OF CONTENTS
 5. THEME RULES
 6. RESPONSIVE RULES
 
-Reviewer: I'm attempting to follow SMACS;
 */
 
 /* 1. BASE RULES */
@@ -37,8 +36,7 @@ a {
 }
 
 body {
-  font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font: 16px "Lato", sans-serif;
 }
 
 h1,
@@ -90,20 +88,21 @@ h3 {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-  .portfolio-item  {
-    flex: 1;
-    margin-right: 25px;
-    width: calc(33% - 25px);
-  }
 
-    .no-flexbox .portfolio-item {
-      width: 33.33%;
-      margin-right: 0;
-    }
+.portfolio-item  {
+  flex: 1;
+  margin-right: 25px;
+  width: calc(33% - 25px);
+}
 
-  .portfolio .portfolio-item:last-of-type {
-    margin-right: 0;
-  }
+.no-flexbox .portfolio-item {
+  width: 33.33%;
+  margin-right: 0;
+}
+
+.portfolio .portfolio-item:last-of-type {
+  margin-right: 0;
+}
 
 .logo {
   font-size: 6em;
@@ -111,9 +110,9 @@ h3 {
   flex: 1;
 }
 
-  .no-flexbox .logo {
-    width: 40%;
-  }
+.no-flexbox .logo {
+  width: 40%;
+}
 
 .title{
   flex: 2;
@@ -136,7 +135,7 @@ h3 {
 }
 
 .line {
-  border-bottom: 1.8px solid #AEAEAE;
+  border-bottom: 1.8px solid #aeaeae;
 }
 
 .uppercase {
@@ -156,25 +155,24 @@ h3 {
 }
 
 .dark-grey {
-  color: #2D3E50;
+  color: #2d3e50;
 }
 
 .green {
-  color: #1BBC9B;
+  color: #1bbc9b;
 }
 
 .pink {
-  color: #E64C66;
+  color: #e64c66;
 }
 
 /* 5. STATE RULES */
 
 a:hover {
-  color: #2D3E50;
+  color: #2d3e50;
 }
 
 /* MEDIA QUERIES */
-/* I'm not sure where these should go */
 
 @media only screen and (max-width: 900px) {
   h1 {
@@ -195,10 +193,10 @@ a:hover {
     flex-direction: column;
   }
 
-    .portfolio-item  {
-      margin-right: 0px;
-      width: 100%;
-    }
+  .portfolio-item  {
+    margin-right: 0px;
+    width: 100%;
+  }
 
 }
 
@@ -208,7 +206,7 @@ a:hover {
   }
 
   .line {
-    border-bottom: 1px solid #AEAEAE;
+   border-bottom-width: 1px;
   }
 }
 
