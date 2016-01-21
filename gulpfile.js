@@ -7,7 +7,12 @@ var gulp = require('gulp'),
 imagemin = require('gulp-imagemin'),
 imageResize = require('gulp-image-resize'),
 pngquant = require('imagemin-pngquant'),
-imageminJpegRecompress = require('imagemin-jpeg-recompress');
+imageminJpegRecompress = require('imagemin-jpeg-recompress'),
+pages = require('gulp-gh-pages');
+
+var options = {
+  dist: './dist/'
+};
 
 gulp.task('minifyCSS', function(){
   gulp.src("css/main.css")
@@ -112,6 +117,11 @@ gulp.task("build", ['optimize', 'minifyCSS'], function(){
 
 gulp.task('serve', ['watchFiles']);
 
+
+gulp.task('deploy', function() {
+  return gulp.src(options.dist + '**/*')
+      .pipe(pages());
+})
 // we make build task a depend. of default task so
 // can just run gulp
 gulp.task("default", ["clean"], function(){
