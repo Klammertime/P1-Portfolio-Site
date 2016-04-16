@@ -100,7 +100,7 @@ gulp.task('watchFiles', function(){
   gulp.watch('img_original/*', ['resize3600', 'resize1800','resize1440','resize960']);
 });
 
-// creating clean task
+// creating clean task to delete files in dist
 gulp.task('clean', function(){
   del(['dist', 'img', 'css/main.min.css']);
 });
@@ -135,12 +135,4 @@ gulp.task("default", ["clean"], function(){
 // when you don't give it a task name
 // instead of callback fcn as next argument
 // you give it an array of dependencies next
-
-
-
-
-
-
-
-
 
