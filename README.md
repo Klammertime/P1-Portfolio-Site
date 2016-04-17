@@ -6,7 +6,7 @@
 
 Usage
 -----
-Navigate to project hosted on github.com **[HERE]**(http://klammertime.github.io/Portfolio-Page/)
+Navigate to project hosted on github.com [**here**](http://klammertime.github.io/Portfolio-Page/)
 
 **OR**
 
