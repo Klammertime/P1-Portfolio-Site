@@ -6,12 +6,12 @@
 
 Usage
 -----
-1. Clone this repository
-2. Navigate to your local copy of index.html through your web browser 
+Navigate to project hosted on github.com **[HERE]**(http://klammertime.github.io/Portfolio-Page/)
 
 **OR**
 
-Navigate to page hosted on github.com [here](http://klammertime.github.io/Portfolio-Page/)
+1. Clone this repository
+2. Navigate to your local copy of index.html through your web browser 
 
 ##Technologies Used
 
