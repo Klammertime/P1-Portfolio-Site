@@ -14,7 +14,7 @@ Navigate to page hosted on github.com [here](http://klammertime.github.io/Portfo
 
 ##Technologies Used
 
-Flexbox, responsive images, Gulp, Unsplash images, and HTML5 (structure, syntax and semantics).
+Flexbox, responsive images, Gulp, Unsplash images, Modernizr, PictureFill and HTML5 (structure, syntax and semantics).
 
 ##Resources
 * Udacity Supporting Courses: [Intro Intro to HTML and CSS](https://www.udacity.com/course/intro-to-html-and-css--ud304), [Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893), [Responsive Images](https://www.udacity.com/course/responsive-images--ud882), Git & Github, Hosting your Website on Github, & [Web Tooling & Automation](https://www.udacity.com/course/web-tooling-automation--ud892)
