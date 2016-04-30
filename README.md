@@ -4,7 +4,7 @@
 
 I replicated a [design mockup](https://storage.googleapis.com/supplemental_media/udacityu/2655898586/design-mockup-portfolio.pdf) in HTML and CSS. Once successfully replicated, I continued making customizations to the design to personalize it. I decided to take this opportunity to practice using Flexbox. 
 
-###[**~VIEW PORTFOLIO PAGE ONLINE HERE~**](http://klammertime.github.io/P1-Portfolio-Site/)
+###[**~VIEW PORTFOLIO PAGE HERE~**](http://klammertime.github.io/P1-Portfolio-Site/)
 
 Usage
 -----
