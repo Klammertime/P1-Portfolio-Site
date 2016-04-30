@@ -6,6 +6,8 @@ I replicated a [design mockup](https://storage.googleapis.com/supplemental_media
 
 ###[**~VIEW PORTFOLIO PAGE ONLINE HERE~**](http://klammertime.github.io/P1-Portfolio-Site/)
 
+Usage
+-----
 1. Clone this repository
 2. Navigate to your local copy of index.html through your web browser 
 
