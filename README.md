@@ -1,21 +1,19 @@
 #Build a Portfolio Site
 
-**Project 1: Build a Portfolio Site (70 hrs)** ~ [Udacity Front End Web Developer Nanodegree Program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
+**Project 1: Build a Portfolio Site (70 hrs)** ~ [Udacity Front-End Web Developer Nanodegree Program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
 
-**Directions**: You will be provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete throughout the course of the Front-End Web Developer Nanodegree.
+I replicated a [design mockup](https://storage.googleapis.com/supplemental_media/udacityu/2655898586/design-mockup-portfolio.pdf) in HTML and CSS. Once successfully replicated, I continued making customizations to the design to personalize it. I decided to take this opportunity to practice using Flexbox. 
 
-Usage
------
-Navigate to project hosted on github.com [**here**](http://klammertime.github.io/P1-Portfolio-Site/)
-
-**OR**
+###[**~VIEW PORTFOLIO PAGE ONLINE HERE~**](http://klammertime.github.io/P1-Portfolio-Site/)
 
 1. Clone this repository
 2. Navigate to your local copy of index.html through your web browser 
 
 ##Technologies Used
-
 Flexbox, responsive images (srcset & sizes), CSS calc(), Gulp, Unsplash images, Modernizr, PictureFill, Normalize, Google Fonts, HTML5 (structure, syntax and semantics) and SMACSS (divided CSS rules into Base Rules, Layout Rules, Module Rules, State Rules, and Theme Rules).
+
+##Style Guide Used
+[Udacity Front-End Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/)
 
 ##Resources
 * **Udacity Supporting Courses**: [Intro Intro to HTML and CSS](https://www.udacity.com/course/intro-to-html-and-cs--ud304), [Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893), [Responsive Images](https://www.udacity.com/course/responsive-images--ud882), Git & Github, Hosting your Website on Github, & [Web Tooling & Automation](https://www.udacity.com/course/web-tooling-automation--ud892)
