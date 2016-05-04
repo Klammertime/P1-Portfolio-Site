@@ -1,6 +1,7 @@
 #Build a Portfolio Site
 
 **Project 1: Build a Portfolio Site (70 hrs)** ~ [Udacity Front-End Web Developer Nanodegree Program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
+[Certificate of Completion](https://github.com/Klammertime/Portfolio-START-HERE-/blob/master/certificate.pdf)
 
 I replicated a [design mockup](https://storage.googleapis.com/supplemental_media/udacityu/2655898586/design-mockup-portfolio.pdf) in HTML and CSS. Once successfully replicated, I continued making customizations to the design to personalize it. I decided to take this opportunity to practice using Flexbox. 
 
