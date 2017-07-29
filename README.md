@@ -25,6 +25,10 @@ Flexbox, responsive images (srcset & sizes), CSS calc(), Gulp, Unsplash images, 
 * [Getting Started With CSS calc ()](https://www.smashingmagazine.com/2015/12/getting-started-css-calc-techniques/)
 * [CSS Tricks - Guide To Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox Playground](https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/)
+* [HTML5 Element Flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.png)
+* [23 steps to the perfect website layout](http://www.creativebloq.com/web-design/steps-perfect-website-layout-812625)
+* [CSS Comb](http://csscomb.com/)
+* [Favicon Generator.](http://realfavicongenerator.net/)
 * Ǡ from http://unicode-table.com/en/
   * Many times you don't need to use an image or icon fonts, but can use a unicode character from that site. They have a lot of amazing characters and it helps increase page load times to not have to download an image or icon font library.
 * Images from https://unsplash.com/, an amazing source of royalty-free images.
